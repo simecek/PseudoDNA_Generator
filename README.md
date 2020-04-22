@@ -4,7 +4,7 @@ This is an early prototype of a tool for generation pseudo-genomic sequences, i.
 
 As a side product, we created a pseudo-DNA classifier, i.e. a tool to distinguish real (genomic) sequences from unreal (permuted) sequences. Current accuracy on intergenomic regions is slightly higher than 80%.
 
-**Jupyter notebooks**:
+**Jupyter Notebooks**:
   * `Random_Genome_Seqs.ipynb`: generate training sets, i.e. a random sequences from intergenomic regions
   * `PseudoDNA_LSTM_Generator.ipynb`: based on the first training set, generates sequences that look alike sequences from the training set 
   * `PseudoDNA_CNN_Classifier.ipynb`: based on the second training set, it learns to classify real genomic sequences vs. unreal (permuted) sequence
