@@ -14,6 +14,22 @@
 
 ### Exons 50k dataset  
 
-* **Exons_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [Exons_AWD_LSTM_v0.ipynb](Exons_AWD_LSTM_v0.ipynb) is a script used for training, accuracy **36.2**
-* **Exons_AWD_LSTM_v1**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.05, [Exons_AWD_LSTM_v1.ipynb](Exons_AWD_LSTM_v1.ipynb) is a script used for training, accuracy **36.1**
-* **Exons_WholeGenomeButChr1_v1_0**: Finetuned AWD-LSTM model, previously trained on 25% of the whole genome, no bos token [Exons_WholeGenomeButChr1_v1_0.ipynb](Exons_WholeGenomeButChr1_v1_0.ipynb) is a script used for training, accuracy **36.9**
+* **Exons_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [Exons_AWD_LSTM_v0.ipynb](Exons_AWD_LSTM_v0.ipynb) is the script used for training, accuracy **35.9**
+* **Exons_AWD_LSTM_v1**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.05, [Exons_AWD_LSTM_v1.ipynb](Exons_AWD_LSTM_v1.ipynb) is the script used for training, accuracy **35.8**
+* **Exons_WholeGenomeButChr1_v1_0**: Finetuned AWD-LSTM model, previously trained on 25% of the whole genome, no bos token [Exons_WholeGenomeButChr1_v1_0.ipynb](Exons_WholeGenomeButChr1_v1_0.ipynb) is a script used for training, accuracy **36.3**
+
+### Transcripts (coding sequence) dataset 
+
+* **Transcripts_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [Transcripts_AWD_LSTM_v0.ipynb](Transcripts_AWD_LSTM_v0.ipynb) is the script used for training, accuracy **36.5**
+
+### 3'UTR 50k dataset 
+
+* **3UTR_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [3UTR_AWD_LSTM_v0.ipynb](3UTR_AWD_LSTM_v0.ipynb) is the script used for training, accuracy **36.5**
+
+### 5'UTR 25k dataset 
+
+* **5UTR_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [5UTR_AWD_LSTM_v0.ipynb](5UTR_AWD_LSTM_v0.ipynb) is the script used for training, accuracy **37.6**
+
+### Introns 50k dataset
+
+* **Introns_AWD_LSTM_v0**: AWD-LSTM model trained on all chromosomes except chr1, 5 epochs with lr=0.01, [Introns_AWD_LSTM_v0.ipynb](Introns_AWD_LSTM_v0.ipynb) is the script used for training, accuracy **41.6**
